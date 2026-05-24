@@ -1,0 +1,105 @@
+[
+{
+"kv_id": "thermal.kv.liquid-cooli.p001.000",
+"key": "document_type",
+"value": "This document is a white paper.",
+"concept_path": [
+"datacenter",
+"liquid_cooling",
+"ashrae"
+],
+"curriculum_level": 4,
+"equation": "",
+"units": "",
+"prerequisites": [],
+"source": {
+"quote": "White Paper",
+"region": null,
+"doc_id": "liquid-cooling-wp-cc941709b4",
+"page": 1
+},
+"languages_detected": [
+"en"
+],
+"confidence": "high",
+"public_safe": true,
+"assets": []
+},
+{
+"kv_id": "thermal.kv.liquid-cooli.p001.001",
+"key": "publishing_body",
+"value": "The white paper was developed by ASHRAE Technical Committee 9.9, which focuses on Mission Critical Facilities, Data Centers, Technology Spaces, and Electronic Equipment.",
+"concept_path": [
+"datacenter",
+"standardization",
+"ashrae"
+],
+"curriculum_level": 4,
+"equation": "",
+"units": "",
+"prerequisites": [],
+"source": {
+"quote": "Developed by ASHRAE Technical Committee 9.9, Mission Critical Facilities, Data Centers, Technology Spaces, and Electronic Equipment",
+"region": null,
+"doc_id": "liquid-cooling-wp-cc941709b4",
+"page": 1
+},
+"languages_detected": [
+"en"
+],
+"confidence": "high",
+"public_safe": true,
+"assets": []
+},
+{
+"kv_id": "thermal.kv.liquid-cooli.p001.002",
+"key": "title",
+"value": "The title is 'Emergence and Expansion of Liquid Cooling in Mainstream Data Centers'.",
+"concept_path": [
+"datacenter",
+"liquid_cooling"
+],
+"curriculum_level": 4,
+"equation": "",
+"units": "",
+"prerequisites": [],
+"source": {
+"quote": "Emergence and Expansion of Liquid Cooling in Mainstream Data Centers",
+"region": null,
+"doc_id": "liquid-cooling-wp-cc941709b4",
+"page": 1
+},
+"languages_detected": [
+"en"
+],
+"confidence": "high",
+"public_safe": true,
+"assets": []
+},
+{
+"kv_id": "thermal.kv.liquid-cooli.p001.003",
+"key": "location",
+"value": "The location 'Peachtree Corners' is referenced on the page.",
+"concept_path": [
+"datacenter",
+"liquid_cooling",
+"ashrae"
+],
+"curriculum_level": 4,
+"equation": "",
+"units": "",
+"prerequisites": [],
+"source": {
+"quote": "Peachtree Corners",
+"region": null,
+"doc_id": "liquid-cooling-wp-cc941709b4",
+"page": 1
+},
+"languages_detected": [
+"en"
+],
+"confidence": "low",
+"public_safe": true,
+"assets": []
+}
+]
