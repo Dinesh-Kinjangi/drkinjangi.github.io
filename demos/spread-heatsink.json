@@ -1,0 +1,115 @@
+{
+  "defaults": {
+    "width_mm": 50,
+    "length_mm": 50,
+    "base_thickness_mm": 3,
+    "fin_height_mm": 25,
+    "fin_thickness_mm": 1,
+    "fin_count": 20,
+    "heatsink_material": "aluminum",
+    "power_w": 100,
+    "heat_source_width_mm": 20,
+    "heat_source_length_mm": 20,
+    "tim_conductivity_w_mk": 5,
+    "tim_thickness_mm": 0.1,
+    "flow_type": "ducted",
+    "ambient_temp_c": 25,
+    "max_allowable_temp_c": 125,
+    "airflow_cfm": 15
+  },
+  "sample_result": {
+    "T_junction": 127.95,
+    "R_total": 1.029,
+    "R_spread": 0.057,
+    "R_tim": 0.05,
+    "R_conv": 0.858,
+    "pressure_drop_pa": 77.3,
+    "operating_cfm": 15.0,
+    "status": "WARNING"
+  },
+  "cfm_sweep": [
+    {
+      "cfm": 5,
+      "T_junction": 167.57,
+      "R_total": 1.426,
+      "pressure_pa": 11.2
+    },
+    {
+      "cfm": 8,
+      "T_junction": 148.8,
+      "R_total": 1.238,
+      "pressure_pa": 24.9
+    },
+    {
+      "cfm": 10,
+      "T_junction": 140.9,
+      "R_total": 1.159,
+      "pressure_pa": 37.0
+    },
+    {
+      "cfm": 12,
+      "T_junction": 134.86,
+      "R_total": 1.099,
+      "pressure_pa": 51.4
+    },
+    {
+      "cfm": 15,
+      "T_junction": 127.95,
+      "R_total": 1.029,
+      "pressure_pa": 77.3
+    },
+    {
+      "cfm": 18,
+      "T_junction": 122.67,
+      "R_total": 0.977,
+      "pressure_pa": 108.5
+    },
+    {
+      "cfm": 22,
+      "T_junction": 117.22,
+      "R_total": 0.922,
+      "pressure_pa": 158.2
+    },
+    {
+      "cfm": 28,
+      "T_junction": 111.13,
+      "R_total": 0.861,
+      "pressure_pa": 250.2
+    },
+    {
+      "cfm": 35,
+      "T_junction": 105.93,
+      "R_total": 0.809,
+      "pressure_pa": 384.1
+    }
+  ],
+  "sliders": [
+    {
+      "key": "power_w",
+      "label": "Power",
+      "unit": "W",
+      "min": 25,
+      "max": 250,
+      "step": 5,
+      "default": 100
+    },
+    {
+      "key": "airflow_cfm",
+      "label": "Airflow",
+      "unit": "CFM",
+      "min": 5,
+      "max": 35,
+      "step": 1,
+      "default": 15
+    },
+    {
+      "key": "fin_count",
+      "label": "Fin count",
+      "unit": "",
+      "min": 8,
+      "max": 30,
+      "step": 1,
+      "default": 20
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-05-24T20:49:40.725195+00:00",
+  "company": "FlowAgents",
+  "orchestrator": "FlowRun",
+  "version": "1.0",
+  "signals": {
+    "vault_scraped_pdfs": 26,
+    "ingest_queue": 22,
+    "catalog_lines": 26,
+    "kb_lines": 14,
+    "approved_kvs": 14
+  },
+  "g4_pending": [
+    {
+      "run_id": "test-review-141418",
+      "approved_kvs": 10
+    },
+    {
+      "run_id": "test-no-key",
+      "approved_kvs": 10
+    },
+    {
+      "run_id": "test-key-check",
+      "approved_kvs": 0
+    },
+    {
+      "run_id": "test-flowrun",
+      "approved_kvs": 0
+    },
+    {
+      "run_id": "test-consolidation",
+      "approved_kvs": 0
+    },
+    {
+      "run_id": "2026-05-24-run",
+      "approved_kvs": 0
+    },
+    {
+      "run_id": "2026-05-24-isotherm-v0",
+      "approved_kvs": 0
+    },
+    {
+      "run_id": "2026-05-24-daily-manual",
+      "approved_kvs": 0
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "test-review-141418",
+      "workflow": "manual",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 10,
+      "updated_at": "2026-05-24T20:49:40.700501+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "test-no-key",
+      "workflow": "manual",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 10,
+      "updated_at": "2026-05-24T20:49:40.699266+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "test-key-check",
+      "workflow": "manual",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 0,
+      "updated_at": "2026-05-24T20:49:40.698145+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "test-flowrun",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 0,
+      "updated_at": "2026-05-24T20:49:40.696833+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "test-consolidation",
+      "workflow": "manual",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 0,
+      "updated_at": "2026-05-24T20:49:40.695621+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "2026-05-24-thermal-report",
+      "workflow": "manual",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pass"
+      },
+      "g4_approved": true,
+      "approved_kvs": 17,
+      "updated_at": "2026-05-24T20:49:40.694173+00:00",
+      "blocked": null
+    },
+    {
+      "run_id": "2026-05-24-run",
+      "workflow": "manual",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 0,
+      "updated_at": "2026-05-24T20:49:40.692965+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "2026-05-24-isotherm-v0",
+      "workflow": "manual",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 0,
+      "updated_at": "2026-05-24T20:49:40.691958+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "2026-05-24-isotherm-g1",
+      "workflow": "manual",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pass"
+      },
+      "g4_approved": true,
+      "approved_kvs": 10,
+      "updated_at": "2026-05-24T20:49:40.690801+00:00",
+      "blocked": null
+    },
+    {
+      "run_id": "2026-05-24-daily-manual",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 0,
+      "updated_at": "2026-05-24T20:49:40.689165+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    }
+  ],
+  "recent_metrics": [
+    {
+      "ts": "2026-05-24T18:58:00Z",
+      "run_id": "2026-05-24-thermal-report",
+      "stage": "review",
+      "gate": "G1",
+      "passed": true,
+      "approved": 17,
+      "rejected": 1,
+      "warnings": 3,
+      "input_facts": 18
+    },
+    {
+      "ts": "2026-05-24T18:58:00Z",
+      "run_id": "2026-05-24-thermal-report",
+      "stage": "review_llm",
+      "approved": 14,
+      "reviewed": 14
+    },
+    {
+      "ts": "2026-05-24T20:41:10Z",
+      "run_id": "test-flowrun",
+      "stage": "workflow",
+      "passed": true,
+      "note": "completed daily"
+    },
+    {
+      "ts": "2026-05-24T20:45:41Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "vault_scan",
+      "passed": true,
+      "note": "vault_scan"
+    },
+    {
+      "ts": "2026-05-24T20:45:41Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "process_ingest_queue",
+      "passed": true,
+      "note": "process_ingest_queue"
+    },
+    {
+      "ts": "2026-05-24T20:45:41Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "import_parse_bridge",
+      "passed": true,
+      "note": "import_parse_bridge"
+    },
+    {
+      "ts": "2026-05-24T20:46:38Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "mining_fleet",
+      "passed": true,
+      "note": "mining_fleet"
+    },
+    {
+      "ts": "2026-05-24T20:46:38Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "literature_mine",
+      "passed": true,
+      "note": "skipped: bg mine active"
+    },
+    {
+      "ts": "2026-05-24T20:46:38Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "g4_check",
+      "passed": true,
+      "note": "g4_check"
+    },
+    {
+      "ts": "2026-05-24T20:46:38Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "g4_notify",
+      "passed": true,
+      "note": "g4_notify"
+    },
+    {
+      "ts": "2026-05-24T20:46:38Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "state_sync",
+      "passed": true,
+      "note": "gates synced"
+    },
+    {
+      "ts": "2026-05-24T20:46:38Z",
+      "run_id": "2026-05-24-daily-manual",
+      "stage": "workflow",
+      "passed": true,
+      "note": "completed daily"
+    }
+  ],
+  "workflows": [
+    "daily",
+    "literature",
+    "council",
+    "publish"
+  ]
+}

@@ -1,0 +1,33 @@
+# Dinesh Kinjangi — FlowAgents
+
+Dinesh Kinjangi is an agentic thermal design engineer. PhD in CFD & turbulence.
+Thermal design engineer at Advanced Thermal Solutions (Boston).
+
+LinkedIn headline: Thermal Design Engineer · Liquid cooling & thermal CFD | Agentic sizing workflows · PhD · ATS Boston
+
+Winner, MIT MTL Hackathon — AI for Microelectronics (2026).
+
+## Profiles (confirmed)
+- LinkedIn: https://www.linkedin.com/in/dinesh-kinjangi  (Dinesh Kinjangi)
+- X: https://x.com/drkinjangi  (@drkinjangi)
+- GitHub: https://github.com/drkinjangi  (drkinjangi)
+- Google Scholar: https://scholar.google.com/citations?user=tJstqL4AAAAJ  (Dinesh Kumar Kinjangi)
+- Email: dineshkinjangi@outlook.com
+
+Scope: thermal engineering and CFD for electronics cooling. Works on the
+microelectronics thermal bottleneck — junction limits, package spreading,
+facility loops — not general-purpose CFD.
+
+He builds agents for thermal work: Spread for agentic sizing, Residual for
+thermal CFD workflows, and on-prem literature RAG with sourced answers.
+Spread heatsink physics runs in the browser (no API required on flowagents.dev).
+
+FlowAgents is his personal site for agentic thermal engineering.
+
+Active on LinkedIn and X as an agentic thermal design engineer.
+
+## Site sections
+- /work — Spread and Residual live prototypes
+- /writing — field notes including surrogate vs mesh decision framework
+- /ai-tool — agent stack
+- /about — credentials, MTL hackathon, social links
