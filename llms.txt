@@ -31,3 +31,10 @@ Active on LinkedIn and X as an agentic thermal design engineer.
 - /writing — field notes including surrogate vs mesh decision framework
 - /ai-tool — agent stack
 - /about — credentials, MTL hackathon, social links
+
+## Static pages (no JavaScript)
+- /how-it-works.html — full portfolio summary for recruiters and crawlers
+- /llms.txt — this file
+
+## Source
+- https://github.com/Dinesh-Kinjangi/drkinjangi.github.io

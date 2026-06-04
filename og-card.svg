@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f9f7f4"/>
+  <text x="80" y="120" font-family="system-ui,sans-serif" font-size="28" fill="#888" letter-spacing="0.2em">FLOWAGENTS</text>
+  <text x="80" y="220" font-family="system-ui,sans-serif" font-size="56" font-weight="700" fill="#0f0f0f">Dinesh Kinjangi</text>
+  <text x="80" y="290" font-family="system-ui,sans-serif" font-size="32" fill="#4b4b4b">Agentic thermal design engineer</text>
+  <text x="80" y="360" font-family="system-ui,sans-serif" font-size="24" fill="#92600a">Spread · size with physics</text>
+  <text x="80" y="400" font-family="system-ui,sans-serif" font-size="24" fill="#0e7490">Residual · thermal CFD workflow</text>
+  <text x="80" y="500" font-family="system-ui,sans-serif" font-size="22" fill="#888">flowagents.dev · PhD · ATS Boston · MIT MTL Hackathon 2026</text>
+  <path d="M80 540 H400" stroke="#c94a00" stroke-width="3"/>
+</svg>

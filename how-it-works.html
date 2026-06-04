@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How FlowAgents works | Dinesh Kinjangi</title>
+  <meta name="description" content="Plain-text overview of Spread, Residual, and FlowAgents. No JavaScript required." />
+  <link rel="canonical" href="https://flowagents.dev/how-it-works.html" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1.25rem; line-height: 1.65; color: #1a1a1a; background: #f9f7f4; }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.1rem; margin-top: 2rem; color: #c94a00; }
+    a { color: #c94a00; }
+    .muted { color: #666; font-size: 0.9rem; }
+    ul { padding-left: 1.25rem; }
+    code { font-size: 0.85em; background: #fff; padding: 0.1em 0.35em; border-radius: 4px; }
+    .box { background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 1rem 1.25rem; margin: 1rem 0; }
+  </style>
+</head>
+<body>
+  <p class="muted"><a href="https://flowagents.dev/">← flowagents.dev</a> · static page, no app required</p>
+
+  <h1>How FlowAgents works</h1>
+  <p><strong>Dinesh Kinjangi</strong> · agentic thermal design engineer · PhD thermal CFD · thermal design engineer at ATS (Boston)</p>
+
+  <p>
+    FlowAgents is a portfolio site for two prototypes I build on nights and weekends.
+    The interactive demos need JavaScript. This page is for recruiters, link previews, and anyone who wants the story in thirty seconds without loading the app.
+  </p>
+
+  <h2>Spread (calculate)</h2>
+  <div class="box">
+    <p>Agentic thermal sizing: heatsinks, cold plates, heat exchangers, CDU selection.</p>
+    <ul>
+      <li>You describe geometry and conditions in plain language.</li>
+      <li>An agent extracts parameters and runs numpy physics (Teertstra bypass, spreading resistance, and related models).</li>
+      <li>The site demo runs heatsink physics <strong>in the browser</strong> on flowagents.dev. No server required for the public demo.</li>
+      <li>Source stack: Python FastAPI backend in a separate repo when you run it locally.</li>
+    </ul>
+  </div>
+
+  <h2>Residual (simulate)</h2>
+  <div class="box">
+    <p>Thermal CFD workflow for electronics cooling: OpenFOAM case structure, mesh QC, residual plots.</p>
+    <ul>
+      <li>The live site shows parsed log output and mesh summary from a real channel case (static JSON).</li>
+      <li>Full Jupyter-native IDE runs locally on port 3001.</li>
+      <li>Not general-purpose cloud CFD. Thermal cases only.</li>
+    </ul>
+  </div>
+
+  <h2>Remember (literature)</h2>
+  <div class="box">
+    <p>On-prem RAG over datasheets and test reports with chunk citations. Sample answer on the AI as Tool page. Built first at ATS for internal use.</p>
+  </div>
+
+  <h2>What to click if you have JavaScript</h2>
+  <ul>
+    <li><a href="https://flowagents.dev/work">/work</a> — move Spread sliders, toggle Residual p vs Ux</li>
+    <li><a href="https://flowagents.dev/about">/about</a> — credentials, MTL hackathon, LinkedIn copy</li>
+    <li><a href="https://flowagents.dev/writing">/writing</a> — cold plate, OCP L10/L11, surrogate vs mesh</li>
+  </ul>
+
+  <h2>Repos and local run</h2>
+  <ul>
+    <li>Site: <a href="https://github.com/Dinesh-Kinjangi/drkinjangi.github.io">github.com/Dinesh-Kinjangi/drkinjangi.github.io</a></li>
+    <li>Spread physics API: private/local <code>ats-q</code> (optional for full API)</li>
+    <li>Residual app: local <code>residual</code> repo, <code>npm run dev:cfd</code></li>
+  </ul>
+
+  <h2>Still missing (honest)</h2>
+  <p class="muted">
+    No public demo video yet. Add a 20–60s screen recording of Spread sliders + Residual log view for LinkedIn.
+    OG image for rich link previews: add <code>public/og-card.png</code> (1200×630) when you have a screenshot.
+  </p>
+
+  <p><a href="https://www.linkedin.com/in/dinesh-kinjangi">LinkedIn</a> · <a href="mailto:dineshkinjangi@outlook.com">Email</a></p>
+</body>
+</html>
