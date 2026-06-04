@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-24T20:49:40.725195+00:00",
+  "generated_at": "2026-06-03T22:03:03.698885+00:00",
   "company": "FlowAgents",
   "orchestrator": "FlowRun",
   "version": "1.0",
   "signals": {
-    "vault_scraped_pdfs": 26,
-    "ingest_queue": 22,
-    "catalog_lines": 26,
-    "kb_lines": 14,
-    "approved_kvs": 14
+    "vault_scraped_pdfs": 36,
+    "ingest_queue": 36,
+    "catalog_lines": 36,
+    "kb_lines": 3059,
+    "approved_kvs": 3059
   },
   "g4_pending": [
     {
@@ -32,16 +32,40 @@
       "approved_kvs": 0
     },
     {
-      "run_id": "2026-05-24-run",
-      "approved_kvs": 0
+      "run_id": "2026-06-02-daily",
+      "approved_kvs": 3059
     },
     {
-      "run_id": "2026-05-24-isotherm-v0",
-      "approved_kvs": 0
+      "run_id": "2026-06-01-daily",
+      "approved_kvs": 2923
     },
     {
-      "run_id": "2026-05-24-daily-manual",
-      "approved_kvs": 0
+      "run_id": "2026-05-31-daily",
+      "approved_kvs": 2892
+    },
+    {
+      "run_id": "2026-05-30-daily",
+      "approved_kvs": 2755
+    },
+    {
+      "run_id": "2026-05-29-daily",
+      "approved_kvs": 2755
+    },
+    {
+      "run_id": "2026-05-28-daily",
+      "approved_kvs": 2632
+    },
+    {
+      "run_id": "2026-05-27-daily",
+      "approved_kvs": 2632
+    },
+    {
+      "run_id": "2026-05-26-daily",
+      "approved_kvs": 2632
+    },
+    {
+      "run_id": "2026-05-25-daily",
+      "approved_kvs": 2632
     }
   ],
   "runs": [
@@ -57,7 +81,7 @@
       },
       "g4_approved": false,
       "approved_kvs": 10,
-      "updated_at": "2026-05-24T20:49:40.700501+00:00",
+      "updated_at": "2026-06-03T22:03:03.656187+00:00",
       "blocked": "Awaiting founder G4 (g4_approval.json)"
     },
     {
@@ -72,7 +96,7 @@
       },
       "g4_approved": false,
       "approved_kvs": 10,
-      "updated_at": "2026-05-24T20:49:40.699266+00:00",
+      "updated_at": "2026-06-03T22:03:03.646718+00:00",
       "blocked": "Awaiting founder G4 (g4_approval.json)"
     },
     {
@@ -87,7 +111,7 @@
       },
       "g4_approved": false,
       "approved_kvs": 0,
-      "updated_at": "2026-05-24T20:49:40.698145+00:00",
+      "updated_at": "2026-06-03T22:03:03.637338+00:00",
       "blocked": "Awaiting founder G4 (g4_approval.json)"
     },
     {
@@ -102,7 +126,7 @@
       },
       "g4_approved": false,
       "approved_kvs": 0,
-      "updated_at": "2026-05-24T20:49:40.696833+00:00",
+      "updated_at": "2026-06-03T22:03:03.628229+00:00",
       "blocked": "Awaiting founder G4 (g4_approval.json)"
     },
     {
@@ -117,8 +141,143 @@
       },
       "g4_approved": false,
       "approved_kvs": 0,
-      "updated_at": "2026-05-24T20:49:40.695621+00:00",
+      "updated_at": "2026-06-03T22:03:03.619315+00:00",
       "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "2026-06-02-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 3059,
+      "updated_at": "2026-06-03T22:03:03.610540+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "2026-06-01-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 2923,
+      "updated_at": "2026-06-03T22:03:03.598549+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "2026-05-31-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 2892,
+      "updated_at": "2026-06-03T22:03:03.587551+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "2026-05-30-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 2755,
+      "updated_at": "2026-06-03T22:03:03.575089+00:00",
+      "blocked": "rc=1"
+    },
+    {
+      "run_id": "2026-05-29-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 2755,
+      "updated_at": "2026-06-03T22:03:03.561175+00:00",
+      "blocked": "Awaiting founder G4 (g4_approval.json)"
+    },
+    {
+      "run_id": "2026-05-28-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 2632,
+      "updated_at": "2026-06-03T22:03:03.548612+00:00",
+      "blocked": "rc=1"
+    },
+    {
+      "run_id": "2026-05-27-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 2632,
+      "updated_at": "2026-06-03T22:03:03.536558+00:00",
+      "blocked": "rc=1"
+    },
+    {
+      "run_id": "2026-05-26-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 2632,
+      "updated_at": "2026-06-03T22:03:03.524119+00:00",
+      "blocked": "rc=1"
+    },
+    {
+      "run_id": "2026-05-25-daily",
+      "workflow": "daily",
+      "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "G2": "pass",
+        "G3": "pass",
+        "G4": "pending"
+      },
+      "g4_approved": false,
+      "approved_kvs": 2632,
+      "updated_at": "2026-06-03T22:03:03.510994+00:00",
+      "blocked": "rc=1"
     },
     {
       "run_id": "2026-05-24-thermal-report",
@@ -132,155 +291,95 @@
       },
       "g4_approved": true,
       "approved_kvs": 17,
-      "updated_at": "2026-05-24T20:49:40.694173+00:00",
+      "updated_at": "2026-06-03T22:03:03.497446+00:00",
       "blocked": null
-    },
-    {
-      "run_id": "2026-05-24-run",
-      "workflow": "manual",
-      "gates": {
-        "G0": "pass",
-        "G1": "pass",
-        "G2": "pass",
-        "G3": "pass",
-        "G4": "pending"
-      },
-      "g4_approved": false,
-      "approved_kvs": 0,
-      "updated_at": "2026-05-24T20:49:40.692965+00:00",
-      "blocked": "Awaiting founder G4 (g4_approval.json)"
-    },
-    {
-      "run_id": "2026-05-24-isotherm-v0",
-      "workflow": "manual",
-      "gates": {
-        "G0": "pass",
-        "G1": "pass",
-        "G2": "pass",
-        "G3": "pass",
-        "G4": "pending"
-      },
-      "g4_approved": false,
-      "approved_kvs": 0,
-      "updated_at": "2026-05-24T20:49:40.691958+00:00",
-      "blocked": "Awaiting founder G4 (g4_approval.json)"
-    },
-    {
-      "run_id": "2026-05-24-isotherm-g1",
-      "workflow": "manual",
-      "gates": {
-        "G0": "pass",
-        "G1": "pass",
-        "G2": "pass",
-        "G3": "pass",
-        "G4": "pass"
-      },
-      "g4_approved": true,
-      "approved_kvs": 10,
-      "updated_at": "2026-05-24T20:49:40.690801+00:00",
-      "blocked": null
-    },
-    {
-      "run_id": "2026-05-24-daily-manual",
-      "workflow": "daily",
-      "gates": {
-        "G0": "pass",
-        "G1": "pass",
-        "G2": "pass",
-        "G3": "pass",
-        "G4": "pending"
-      },
-      "g4_approved": false,
-      "approved_kvs": 0,
-      "updated_at": "2026-05-24T20:49:40.689165+00:00",
-      "blocked": "Awaiting founder G4 (g4_approval.json)"
     }
   ],
   "recent_metrics": [
     {
-      "ts": "2026-05-24T18:58:00Z",
-      "run_id": "2026-05-24-thermal-report",
-      "stage": "review",
-      "gate": "G1",
-      "passed": true,
-      "approved": 17,
-      "rejected": 1,
-      "warnings": 3,
-      "input_facts": 18
-    },
-    {
-      "ts": "2026-05-24T18:58:00Z",
-      "run_id": "2026-05-24-thermal-report",
-      "stage": "review_llm",
-      "approved": 14,
-      "reviewed": 14
-    },
-    {
-      "ts": "2026-05-24T20:41:10Z",
-      "run_id": "test-flowrun",
-      "stage": "workflow",
-      "passed": true,
-      "note": "completed daily"
-    },
-    {
-      "ts": "2026-05-24T20:45:41Z",
-      "run_id": "2026-05-24-daily-manual",
-      "stage": "vault_scan",
-      "passed": true,
-      "note": "vault_scan"
-    },
-    {
-      "ts": "2026-05-24T20:45:41Z",
-      "run_id": "2026-05-24-daily-manual",
-      "stage": "process_ingest_queue",
-      "passed": true,
-      "note": "process_ingest_queue"
-    },
-    {
-      "ts": "2026-05-24T20:45:41Z",
-      "run_id": "2026-05-24-daily-manual",
-      "stage": "import_parse_bridge",
-      "passed": true,
-      "note": "import_parse_bridge"
-    },
-    {
-      "ts": "2026-05-24T20:46:38Z",
-      "run_id": "2026-05-24-daily-manual",
-      "stage": "mining_fleet",
-      "passed": true,
-      "note": "mining_fleet"
-    },
-    {
-      "ts": "2026-05-24T20:46:38Z",
-      "run_id": "2026-05-24-daily-manual",
-      "stage": "literature_mine",
-      "passed": true,
-      "note": "skipped: bg mine active"
-    },
-    {
-      "ts": "2026-05-24T20:46:38Z",
-      "run_id": "2026-05-24-daily-manual",
-      "stage": "g4_check",
-      "passed": true,
-      "note": "g4_check"
-    },
-    {
-      "ts": "2026-05-24T20:46:38Z",
-      "run_id": "2026-05-24-daily-manual",
-      "stage": "g4_notify",
-      "passed": true,
-      "note": "g4_notify"
-    },
-    {
-      "ts": "2026-05-24T20:46:38Z",
-      "run_id": "2026-05-24-daily-manual",
+      "ts": "2026-06-01T13:09:48Z",
+      "run_id": "2026-06-01-daily",
       "stage": "state_sync",
       "passed": true,
       "note": "gates synced"
     },
     {
-      "ts": "2026-05-24T20:46:38Z",
-      "run_id": "2026-05-24-daily-manual",
+      "ts": "2026-06-01T13:09:48Z",
+      "run_id": "2026-06-01-daily",
+      "stage": "workflow",
+      "passed": true,
+      "note": "completed daily"
+    },
+    {
+      "ts": "2026-06-02T10:01:28Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "vault_scan",
+      "passed": true,
+      "note": "vault_scan"
+    },
+    {
+      "ts": "2026-06-02T10:01:28Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "process_ingest_queue",
+      "passed": true,
+      "note": "process_ingest_queue"
+    },
+    {
+      "ts": "2026-06-02T10:01:28Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "import_parse_bridge",
+      "passed": true,
+      "note": "import_parse_bridge"
+    },
+    {
+      "ts": "2026-06-03T21:39:41Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "mining_fleet",
+      "passed": true,
+      "note": "mining_fleet"
+    },
+    {
+      "ts": "2026-06-03T21:59:17Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "review",
+      "gate": "G1",
+      "passed": true,
+      "approved": 3059,
+      "rejected": 10,
+      "warnings": 753,
+      "input_facts": 3069
+    },
+    {
+      "ts": "2026-06-03T22:03:02Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "literature_mine",
+      "passed": true,
+      "note": "literature_mine"
+    },
+    {
+      "ts": "2026-06-03T22:03:02Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "g4_check",
+      "passed": true,
+      "note": "g4_check"
+    },
+    {
+      "ts": "2026-06-03T22:03:03Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "g4_notify",
+      "passed": true,
+      "note": "g4_notify"
+    },
+    {
+      "ts": "2026-06-03T22:03:03Z",
+      "run_id": "2026-06-02-daily",
+      "stage": "state_sync",
+      "passed": true,
+      "note": "gates synced"
+    },
+    {
+      "ts": "2026-06-03T22:03:03Z",
+      "run_id": "2026-06-02-daily",
       "stage": "workflow",
       "passed": true,
       "note": "completed daily"
